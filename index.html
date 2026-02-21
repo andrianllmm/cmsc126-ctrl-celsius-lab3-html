@@ -38,10 +38,36 @@
       footer {
         margin-block: 2rem;
       }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav div {
+        display: flex;
+        gap: 1rem;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: inherit;
+      }
     </style>
   </head>
 
   <body>
+    <nav>
+      <a href="">WebsiteName</a>
+      <div>
+        <a href="/">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/videos.html">Videos</a>
+        <a href="/about.html">About</a>
+      </div>
+    </nav>
+
     <header>
       <h1>Hello!</h1>
     </header>
