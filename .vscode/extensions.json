@@ -1,0 +1,4 @@
+{
+  "recommendations": ["esbenp.prettier-vscode", "ritwickdey.LiveServer"],
+  "unwantedRecommendations": []
+}
